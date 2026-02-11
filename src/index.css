@@ -7,26 +7,35 @@
 }
 
 :root {
-  /* Deep Blue FinTech palette */
-  --bg-primary: #0a0e1a;
-  --bg-secondary: #0f1525;
-  --bg-card: #141b2d;
-  --bg-elevated: #1a2236;
-  --bg-hover: #1e2842;
+  /* Light mode FinTech palette */
+  --bg-primary: #f5f6fa;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --bg-elevated: #f0f1f5;
+  --bg-hover: #e8eaef;
 
-  --border-primary: #1e2842;
-  --border-subtle: #162033;
+  --border-primary: #d8dbe5;
+  --border-subtle: #e8eaef;
 
-  --text-primary: #e8ecf4;
-  --text-secondary: #8892a8;
-  --text-muted: #5a6478;
+  --text-primary: #1a1d2e;
+  --text-secondary: #5c6072;
+  --text-muted: #8e92a4;
+
+  /* Sidebar dark theme */
+  --sidebar-bg: #282949;
+  --sidebar-text: #c8cae0;
+  --sidebar-text-bright: #ecedf8;
+  --sidebar-text-muted: #7e80a4;
+  --sidebar-hover: #32335a;
+  --sidebar-border: #3a3b64;
+  --sidebar-selected: rgba(99, 130, 246, 0.15);
 
   /* Segment colors */
   --color-regular: #2563eb;
   --color-retroactive: #f59e0b;
   --color-retro-warning: #ef4444;
   --color-distributed: #6366f1;
-  --color-remaining: #374151;
+  --color-remaining: #d1d5db;
 
   /* Accents */
   --color-green: #10b981;
@@ -88,9 +97,9 @@ table {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--border-primary);
+  background: #c4c7d4;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--text-muted);
+  background: #a0a4b4;
 }
